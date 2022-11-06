@@ -1,0 +1,25 @@
+
+.header{
+	height: 100%;
+  width: 300px;
+  position: fixed;
+  background-color: lightblue;
+  top: 0;
+  left: 0;
+  padding-top: 30px;
+}
+
+.header a {
+  padding: 15px 8px 15px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  
+  
+}
+
+.header a:hover {
+  color: white;
+  background-color:#1b203d;
+}
+

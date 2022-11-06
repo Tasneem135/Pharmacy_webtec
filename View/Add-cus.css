@@ -1,0 +1,98 @@
+body {
+	background: lightblue;
+	}
+.container{
+	height: 90%;
+	width: 1200px;
+	background-color: lightblue;
+	margin-top: 3%;
+	margin-left: 16%;
+	position: absolute;
+}
+.container .left{
+	height: 90%;
+	width: 210px;
+	float: left;
+	border: 5px solid steelblue;
+	margin: auto 0;
+	text-align: center;
+	background-color: skyblue;
+	
+}
+.left a {
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  
+  
+}
+
+.left a:hover {
+  color: white;
+  background-color:#1b203d;
+}
+
+.container .right{
+	height: 90%;
+	width: 970px;
+	float: left;
+	border:#8ad1b9;
+	margin: auto 0;
+	position: relative;
+	background-color: white;
+	border: 5px solid steelblue;
+}
+
+.right label{
+	margin-left: 5%;
+	font-size: 20px;
+	margin-top: 5%;
+}
+ 
+ 
+
+#fname{
+  margin-top: 5%;
+   margin-left: 2%;
+  border: 3px solid black;
+  width: 300px;
+}
+
+#lname{
+	 margin-left: 2%;
+	 border: 3px solid black;
+	 width: 300px;
+}
+#email{
+	margin-left: 6%;
+	border: 3px solid black;
+	width: 300px;
+}
+#mbl{
+  
+  margin-left: 2.5%;
+	border: 3px solid black;
+	width: 300px;
+}
+.right h1{
+margin-top: 10%;
+	margin-left: 5%;
+	font-size: 30px;
+	box-sizing: border-box;
+	border: 0px;
+	color: steelblue;
+}
+
+.btn{
+	width: 30%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: steelblue;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	font-size: 120%;
+}

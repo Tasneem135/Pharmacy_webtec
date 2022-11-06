@@ -1,0 +1,88 @@
+
+body {
+	background: White;
+	}
+
+.container{
+	width: 1570px;
+	height:700px;
+	background: lightblue;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+	border: 7px solid  steelblue;
+	position: relative;
+	margin-left: 100px;
+	margin-top: 4%;
+	
+}
+
+.container .image{
+	float: left;
+	width: 50%;
+	height: 400px;
+	box-sizing: border-box;
+	
+	
+
+}
+	
+.image img{
+	height: 700px;
+	width: 700px;
+	
+	box-shadow: 0 0 0 0;
+
+}
+
+
+.welcome{
+	margin-top: 8%;
+	margin-left: 900px;
+	text-anchor: center;
+}
+
+.btn{
+	width: 75%;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: steelblue;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	margin-left: 18px;
+}
+.btn h4{
+	font-size: 18px;
+	color: white;
+	font-style: normal;
+
+}
+
+ h1{
+	font-style: italic;
+  font-size: 70px;
+ 
+  color: royalblue;
+}
+
+ h2{
+	font-style: italic;
+  font-size: 60px;
+  color: darkblue;
+
+}
+
+h3{
+	font-style: italic;
+  font-size: 30px;
+  
+
+}
+
+.exit{
+	margin-left: 150px;
+	font-size: 17px;
+	font-style: normal;
+}
+
+

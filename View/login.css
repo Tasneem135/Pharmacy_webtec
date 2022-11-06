@@ -1,0 +1,93 @@
+body {
+	background: lightblue;
+	}
+
+	*{
+	margin: 0 ;
+	padding: 0;
+	font-family: sans-serif;
+}
+.login-form{
+	height:86%;
+	width: 100%;
+	background: lightblue;
+	position: absolute;
+	background-size: cover;
+}
+
+.log-box{
+	width: 30%;
+	height: 600px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	margin: 5% auto;
+	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+	background: #fff;
+	
+}
+
+
+.titlee {
+	text-align: center;
+	padding: 1px 0 1px;
+	margin-top: 25px;
+}
+
+.titlee h1{
+	margin: 0;
+	padding: 0;
+	color: steelblue;
+	text-transform: uppercase;
+	font-size: 28px;
+}
+
+#username{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+
+
+#pass{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+
+.submit{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: steelblue;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.submit h1{
+	font-size: 20px;
+	color: white;
+}
+
+
+.cbox{
+	margin: 30px 10px 30px 0;
+
+}
+
+.do-reg{
+	text-align: center;
+}
